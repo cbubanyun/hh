@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="悬浮小宠物玩具水枪互动演示" />
+  <title>蜡笔小新 · 悬停小宠物</title>
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+  <main class="demo-page">
+    <section class="copy">
+      <p class="eyebrow">HOVER INTERACTION</p>
+      <h1>把鼠标移到右下角的小宠物</h1>
+      <p>他会从身前掏出玩具水枪，喷出一阵清爽的水花。</p>
+    </section>
+  </main>
+
+  <button class="pet" id="pet" type="button" aria-label="和蜡笔小新小宠物互动" aria-pressed="false">
+    <span class="pet__hint" aria-hidden="true">移到我身上试试</span>
+    <span class="shinchan" aria-hidden="true">
+      <span class="shinchan__hair"></span>
+      <span class="shinchan__face">
+        <span class="brow brow--left"></span><span class="brow brow--right"></span>
+        <span class="eye eye--left"></span><span class="eye eye--right"></span>
+        <span class="mouth"></span>
+      </span>
+      <span class="shinchan__shirt"></span>
+      <span class="shinchan__shorts"></span>
+      <span class="shinchan__legs"></span>
+      <span class="water-gun"><span class="water-gun__tank"></span><span class="water-gun__barrel"></span></span>
+      <span class="spray-origin"></span>
+      <span class="splash" id="splash"></span>
+    </span>
+  </button>
+
+  <script src="./app.js"></script>
+</body>
+</html>
