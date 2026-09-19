@@ -15,4 +15,4 @@
 
 ## 参考
 
-交互状态的产品思路参考了 GitHub 项目 [alienmelon/pet_cursor.js](https://github.com/alienmelon/pet_cursor.js) 的“状态式网页小宠物”概念；本仓库的 HTML、CSS 和 JavaScript 均为重新实现，未复制其源代码。
+交互状态的产品思路参考了 GitHub 项目 [alienmelon/pet_cursor.js](https://github.com/alienmelon/pet_cursor.js) 的“状态式网页小宠物”概念；本仓库的 HTML、CSS 和 JavaScript 均为重新实现，未复制其源代码；小宠物本体使用仓库内的蜡笔小新透明图片。

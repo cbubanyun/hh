@@ -17,6 +17,7 @@ h1 { margin: 0; font-size: clamp(2.5rem, 7vw, 5.5rem); line-height: .98; }
 .pet__hint { position: absolute; z-index: 5; right: 100%; top: 2.7rem; margin-right: 1rem; width: max-content; padding: .55rem .8rem; border-radius: 999px; background: #fffdf8; color: #7b2e2d; box-shadow: 0 8px 20px #7e342833; font-size: .84rem; font-weight: 800; opacity: 1; transform: translateX(0); transition: opacity .22s ease, transform .22s ease; }
 .pet:hover .pet__hint, .pet.is-spraying .pet__hint { opacity: 0; transform: translateX(8px); }
 .shinchan { position: absolute; right: 0; bottom: 0; width: 175px; height: 255px; filter: drop-shadow(0 14px 12px #7e34284a); transform-origin: 54% 100%; transition: transform .25s ease; }
+.shinchan__image { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: contain; object-position: center bottom; user-select: none; }
 .pet:hover .shinchan, .pet.is-spraying .shinchan { transform: rotate(-4deg) translateY(-4px); animation: bounce .45s ease-in-out infinite alternate; }
 .shinchan__hair { position: absolute; z-index: 2; left: 41px; top: 10px; width: 92px; height: 57px; border-radius: 60% 60% 35% 38%; background: #161415; transform: rotate(-7deg); }
 .shinchan__face { position: absolute; z-index: 3; left: 25px; top: 31px; width: 124px; height: 104px; border: 4px solid #161415; border-radius: 53% 48% 44% 51%; background: #ffd0ad; }
